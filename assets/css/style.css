@@ -1,0 +1,13 @@
+/* Custom Styles para o GitHub Pages (sobrescreve o estilo base) */
+
+/* 1. Aumentar o tamanho da fonte */
+body {
+    font-size: 1.15em; /* Aumenta o tamanho da fonte em 15% */
+}
+
+/* 2. Aumentar a largura máxima do texto */
+.markdown-body, .page-content, .site-content {
+    /* Seletores comuns usados pelo GitHub para envolver o conteúdo principal */
+    max-width: 900px; /* Altere este valor para a largura desejada (em pixels) */
+    width: 90%;      /* Garante que em telas menores ocupe 90% */
+}
